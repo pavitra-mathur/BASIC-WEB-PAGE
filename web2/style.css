@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex:1; 
+    color: #fff;
+
+}
+ul{
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+li{
+    padding: 1rem
+}
+.links{
+    font-family: 'Klee One', cursive;
+    font-weight: 800;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+}
+nav {
+    border-bottom: 1px solid #fff;
+    position:fixed;
+    width:100%;
+    
+}
+.main{
+    display: flex;
+    padding-top: 4rem;
+    height: 90vh;
+}
+.home{
+    background-image: linear-gradient(to right, #261C2C, #6E85B2);
+}
+.maintext{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    padding-top : 8rem;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1{
+    font-size: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+h3{
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+.mainimg{
+    height: auto;
+    padding-left: 3rem;
+    padding-top: 5rem;
+}
+.custom-shape-divider-bottom-1630398628 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1630398628 svg {
+    position: relative;
+    display: block;
+    width: calc(137% + 1.3px);
+    height: 183px;
+}
+
+.custom-shape-divider-bottom-1630398628 .shape-fill {
+    fill: #FFFFFF;
+}
